@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fa79a16-8bee-43aa-bd6d-6e315e982b82" name="Default Changelist" comment="" />
+    <list default="true" id="5fa79a16-8bee-43aa-bd6d-6e315e982b82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache-nhidiep874" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-nhidiep874" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dash_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eddf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/playlist.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b0bTZi7lN6aH95lXe7bxoL2QR6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,32 +33,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dash_test">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dash_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dash-app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dash_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dash-app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dash_test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\nhiud\spotify-dash-app\dash-app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,6 +97,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eddf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dash_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dash_test" />
+        <item itemvalue="Python.dash-app" />
+        <item itemvalue="Python.hi" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.eddf" />
         <item itemvalue="Python.playlist" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587771966960</updated>
       <workItem from="1587771969354" duration="36789000" />
+      <workItem from="1588448086825" duration="12682000" />
     </task>
     <servers />
   </component>
@@ -164,21 +178,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1004" height="190" key="GridCell.Tab.0.bottom" timestamp="1588034484494">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state x="421" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588460967725">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
+    <state x="421" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1588460967725" />
+    <state width="1068" height="256" key="GridCell.Tab.0.bottom" timestamp="1588461007497">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1068" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588461007497" />
     <state width="1004" height="190" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1588034484494" />
-    <state width="1004" height="190" key="GridCell.Tab.0.center" timestamp="1588034484493">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1068" height="256" key="GridCell.Tab.0.center" timestamp="1588461007496">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
+    <state width="1068" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588461007496" />
     <state width="1004" height="190" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1588034484493" />
-    <state width="1004" height="190" key="GridCell.Tab.0.left" timestamp="1588034484493">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1068" height="256" key="GridCell.Tab.0.left" timestamp="1588461007496">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
+    <state width="1068" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588461007496" />
     <state width="1004" height="190" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1588034484493" />
-    <state width="1004" height="190" key="GridCell.Tab.0.right" timestamp="1588034484494">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state width="1068" height="256" key="GridCell.Tab.0.right" timestamp="1588461007497">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
+    <state width="1068" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588461007497" />
     <state width="1004" height="190" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1588034484494" />
     <state width="1004" height="239" key="GridCell.Tab.1.bottom" timestamp="1587951278990">
       <screen x="0" y="23" width="1440" height="824" />
@@ -206,10 +228,12 @@
     <state x="404" y="246" key="com.intellij.ide.util.TipDialog/0.23.1440.824@0.23.1440.824" timestamp="1587771969393" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dash_project$app.coverage" NAME="app Coverage Results" MODIFIED="1587965491378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dash_project$test.coverage" NAME="eddf Coverage Results" MODIFIED="1587956299266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dash_project$auth.coverage" NAME="auth Coverage Results" MODIFIED="1587939036705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dash_project$dash_test.coverage" NAME="dash_test Coverage Results" MODIFIED="1588007085297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dash_project$playlist.coverage" NAME="playlist Coverage Results" MODIFIED="1587944500598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dash_project$app.coverage" NAME="app Coverage Results" MODIFIED="1587965491378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spotify_dash_app$dash_test.coverage" NAME="dash-app Coverage Results" MODIFIED="1588461007470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spotify_dash_app$hi.coverage" NAME="hi Coverage Results" MODIFIED="1588451457657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dash_project$test.coverage" NAME="eddf Coverage Results" MODIFIED="1587956299266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dash_project$auth.coverage" NAME="auth Coverage Results" MODIFIED="1587939036705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

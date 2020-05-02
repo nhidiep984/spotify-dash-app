@@ -2,7 +2,7 @@ import dash_table as dt
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import spotipy
 import pandas as pd
 import spotipy.util as util
@@ -11,6 +11,7 @@ import plotly.graph_objs as go
 
 external_stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
+
 
 username = 'nhidiep874'
 scope = 'user-library-read playlist-modify-public playlist-read-private'
@@ -24,7 +25,6 @@ token = util.prompt_for_user_token(username,
                                    redirect_uri='http://127.0.0.1:8050/')
 
 sp = spotipy.Spotify(auth=token)
-
 
 def search_playlist_tracks(uri):
     playlist = sp.user_playlist(username, uri)
@@ -89,11 +89,12 @@ def get_tracks_df(tracks):
 # df = get_tracks_df(tracks)
 
 
+
 app.layout = html.Div(children=[
     html.Div(children='''
     Paste in Spotify Playlist URI'''),
     dcc.Input(id='uri', value='', type='text'),
-    html.Button('Submit', type = 'submit', id='submit-button', n_clicks=0),
+    html.Button('Submit', type = 'submit', id='submit-button'),
     html.Div(id='plot')
 
 ])
@@ -101,9 +102,10 @@ app.layout = html.Div(children=[
 
 @app.callback(
     Output('plot', 'children'),
-    [Input('uri', 'value')])
+    [Input('submit-button', 'n_clicks')],
+    [State('uri', 'value')])
 
-def display_graph(uri):
+def display_graph(n_clicks, uri):
     if uri == '':
         return None
 
@@ -111,13 +113,15 @@ def display_graph(uri):
     tracks = get_audio_features(tracks_df)
     df = get_tracks_df(tracks)
 
-    trace_1 = go.Scatter(x=df.name, y=df['tempo'],
+    trace1 = go.Scatter(x=df.name, y=df['tempo'],
                          name='Tempo')
     layout = go.Layout(title='Tempo')
-    fig = go.Figure(data=[trace_1], layout=layout)
+    fig = go.Figure(data=[trace1], layout=layout)
+
     return dcc.Graph(
         id='plot',
-        figure=fig)
+        figure=fig
+    )
 
 
 if __name__ == '__main__':
