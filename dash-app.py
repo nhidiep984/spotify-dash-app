@@ -13,10 +13,10 @@ external_stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 
-username = 'nhidiep874'
+username = ''
 scope = 'user-library-read playlist-modify-public playlist-read-private'
-CLIENT_ID = '80024097aaa84b32a7bf60f5e6cce91d'
-CLIENT_SECRET = '428c1cd5425f496c8d7aff27d7980fa3'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 token = util.prompt_for_user_token(username,
                                    scope,
